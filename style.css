@@ -1,0 +1,81 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: whitesmoke;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: medium;
+  line-height: normal;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: #10979b;
+}
+
+h1 {
+  padding-top: 11rem ;
+  padding-left: 22rem;
+}
+
+h2 {
+  padding-top: 6rem;
+  padding-left: 22rem;
+  padding-bottom: 26rem;
+}
+
+.banner {
+  background-image: url('images/pusheen summer.jpeg');
+  width: 100%;
+  background-size: cover;
+}
+
+.main-article {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 6rem;
+}
+
+.description {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#lone-title {
+  margin-bottom: 2rem;
+}
+
+a {
+  background-color: rgb(241, 212, 172);
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(147, 106, 47);
+  color: beige;
+}
+
+#subtitle {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
